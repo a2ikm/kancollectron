@@ -1,5 +1,15 @@
 {
-  "name"    : "kancollectron",
-  "version" : "0.1.0",
-  "main"    : "main.js"
+  "name": "kancollectron",
+  "private": true,
+  "version": "0.1.0",
+  "main": "main.js",
+  "repository": "a2ikm/kancollectron",
+  "license": "MIT",
+  "scripts": {
+    "package": "electron-packager . kancollectron --arch=x64 --out=packages/v0.1.0 --platform=darwin --version=0.33.7"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.2",
+    "electron-prebuilt": "^0.33.7"
+  }
 }
