@@ -25,7 +25,7 @@ app.commandLine.appendSwitch('ppapi-flash-version', '18.0.0.209');
 app.on('ready', function() {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 800,
+    width: 900,
     height: 600,
     'web-preferences': {
       plugins: true
@@ -43,3 +43,4 @@ app.on('ready', function() {
     mainWindow = null;
   });
 });
+
